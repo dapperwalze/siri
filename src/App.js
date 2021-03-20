@@ -15,8 +15,8 @@ class App extends Component {
       tasks: [
         {
           id: uuidv4(),
-          title: "Nothing to do today?",
-          deadline: "11:01 AM",
+          title: "",
+          deadline: "",
           isTaskComplete: false,
           isFavorite: false,
         },

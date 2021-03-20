@@ -37,7 +37,6 @@ class NewTaskModal extends Component {
     this.setState({ title: "", deadline: "" });
   }
   render() {
-    console.log("deadline", this.state.deadline);
     return (
       <Rodal
         className={"rodal"}
